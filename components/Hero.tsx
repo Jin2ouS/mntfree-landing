@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
             href="https://stock.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/10 transition-all group"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
           >
             <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Stock</span>
           </a>
@@ -83,15 +83,15 @@ const Hero: React.FC = () => {
             href="https://crypto.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-emerald-500/80 hover:bg-emerald-400 text-black transition-all group"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
           >
-            <span className="text-sm font-bold group-hover:scale-105 transition-transform">Crypto</span>
+            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Crypto</span>
           </a>
           <a 
             href="https://futures.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/10 transition-all group"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
           >
             <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Futures</span>
           </a>
@@ -99,7 +99,7 @@ const Hero: React.FC = () => {
             href="https://property.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/10 transition-all group"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
           >
             <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Property</span>
           </a>
