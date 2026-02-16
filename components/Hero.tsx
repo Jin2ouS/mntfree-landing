@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           width='100%' 
           height='100%'
           className="scale-110 md:scale-100 opacity-60 md:opacity-80"
-          title="Everprin 3D Logo"
+          title="MnTfree 3D Logo"
         ></iframe>
         {/* Dark overlay for readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/20 via-transparent to-[#0a0a0a]"></div>
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
         className="glass-morphism relative z-10 max-w-2xl w-full p-8 md:p-16 rounded-[40px] text-center transition-transform duration-200 ease-out"
       >
         <span className="inline-block px-4 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold tracking-widest uppercase mb-6 border border-emerald-500/20">
-          Everprin Intelligence
+          MnTfree Intelligence
         </span>
         <h1 className="text-4xl md:text-7xl font-black mb-6 tracking-tight leading-tight text-white">
           시간을 사는<br />
@@ -70,9 +70,9 @@ const Hero: React.FC = () => {
           반복을 시스템으로 바꾸면,<br className="md:hidden" /> 자유는 시간 위에 쌓입니다.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <a 
-            href="https://stock.everprin.com" 
+            href="https://stock.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/10 transition-all group"
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Stock</span>
           </a>
           <a 
-            href="https://crypto.everprin.com" 
+            href="https://crypto.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center py-4 px-6 rounded-2xl bg-emerald-500/80 hover:bg-emerald-400 text-black transition-all group"
@@ -88,12 +88,20 @@ const Hero: React.FC = () => {
             <span className="text-sm font-bold group-hover:scale-105 transition-transform">Crypto</span>
           </a>
           <a 
-            href="https://cafe.everprin.com" 
+            href="https://futures.mntfree.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/10 transition-all group"
           >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Cafe</span>
+            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Futures</span>
+          </a>
+          <a 
+            href="https://property.mntfree.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/10 transition-all group"
+          >
+            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Property</span>
           </a>
         </div>
       </div>

@@ -36,7 +36,7 @@ const App: React.FC = () => {
 
       <nav className="fixed top-0 left-0 w-full z-50 px-6 py-8 md:px-12 flex justify-between items-center bg-gradient-to-b from-black/50 to-transparent backdrop-blur-sm">
         <div className="text-2xl font-bold tracking-tighter text-white/90">
-          Everprin<span className="text-emerald-500">.</span>
+          MnTfree<span className="text-emerald-500">.</span>
         </div>
         <div className="hidden md:flex gap-8 text-sm font-medium text-white/60">
           <a href="#hero" className="hover:text-white transition-colors">Philosophy</a>
@@ -51,18 +51,19 @@ const App: React.FC = () => {
 
       <footer className="py-20 px-6 text-center border-t border-white/5 bg-black/40 backdrop-blur-md">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold mb-4">Everprin</h3>
+          <h3 className="text-2xl font-bold mb-4">MnTfree</h3>
           <p className="text-white/40 mb-8 max-w-lg mx-auto leading-relaxed">
             반복되는 수고를 자동화하고, 절약된 시간을 가치 있는 곳에 투자하십시오. 
-            Everprin은 당신의 시스템 구축을 돕습니다.
+            MnTfree는 당신의 시스템 구축을 돕습니다.
           </p>
           <div className="flex justify-center gap-6 mb-12">
-            <a href="https://stock.everprin.com" className="text-white/60 hover:text-emerald-400 transition-colors">Stock</a>
-            <a href="https://crypto.everprin.com" className="text-white/60 hover:text-emerald-400 transition-colors">Crypto</a>
-            <a href="https://cafe.everprin.com" className="text-white/60 hover:text-emerald-400 transition-colors">Cafe</a>
+            <a href="https://stock.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Stock</a>
+            <a href="https://crypto.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Crypto</a>
+            <a href="https://futures.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Futures</a>
+            <a href="https://property.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Property</a>
           </div>
           <div className="text-white/20 text-xs">
-            © {new Date().getFullYear()} Everprin. All rights reserved.
+            © {new Date().getFullYear()} MnTfree. All rights reserved.
           </div>
         </div>
       </footer>

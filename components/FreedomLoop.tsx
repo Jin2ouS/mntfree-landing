@@ -26,7 +26,7 @@ const FreedomLoop: React.FC = () => {
         <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto rounded-full mb-8"></div>
         <p className="max-w-2xl mx-auto text-white/40 text-lg font-light leading-relaxed">
           우리는 관찰하고, 자동화하고, 마침내 복리로 쌓이는 시간을 얻습니다.<br />
-          이것이 에버프린이 지향하는 가치입니다.
+          이것이 MnTfree가 지향하는 가치입니다.
         </p>
       </div>
 
@@ -68,7 +68,7 @@ const FreedomLoop: React.FC = () => {
             "시스템은 당신이 잠든 사이에도 <br />당신의 자유를 위해 일합니다."
           </h2>
           <p className="text-white/50 text-xl font-light italic">
-            — Everprin Philosophy
+            — MnTfree Philosophy
           </p>
         </div>
       </div>
