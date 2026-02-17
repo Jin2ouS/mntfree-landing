@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           반복을 시스템으로 바꾸면,<br className="md:hidden" /> 자유는 시간 위에 쌓입니다.
         </p>
         
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <a 
             href="https://stock.mntfree.com" 
             target="_blank" 
