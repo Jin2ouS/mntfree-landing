@@ -36,7 +36,7 @@ const App: React.FC = () => {
 
       <nav className="fixed top-0 left-0 w-full z-50 px-6 py-8 md:px-12 flex justify-between items-center bg-gradient-to-b from-black/50 to-transparent backdrop-blur-sm">
         <div className="text-2xl font-bold tracking-tighter text-white/90">
-          Money & Time Free<span className="text-emerald-500">.</span>
+          MnTfree<span className="text-emerald-500">.</span>
         </div>
         <div className="hidden md:flex gap-8 text-sm font-medium text-white/60">
           <a href="#hero" className="hover:text-white transition-colors">Philosophy</a>
@@ -63,7 +63,7 @@ const App: React.FC = () => {
             <a href="https://property.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Property</a>
           </div>
           <div className="text-center">
-            <div className="text-white/30 text-xs">© 2026 MnTfree</div>
+            <div className="text-white/30 text-xs">© 2026 Money & Time Free</div>
             <a
               href="https://everprin.com"
               target="_blank"
