@@ -51,7 +51,7 @@ const App: React.FC = () => {
 
       <footer className="py-20 px-6 text-center border-t border-white/5 bg-black/40 backdrop-blur-md">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold mb-4">MnTfree</h3>
+          <h3 className="text-2xl font-bold mb-4">Money & Time Free</h3>
           <p className="mb-8 max-w-lg mx-auto text-center leading-[1.7]">
             <span className="block font-semibold text-white/90">반복을 자동화하고, 시간의 자유를 만드십시오.</span>
             <span className="block text-white/75 mt-1">MnTfree는 당신의 시스템을 구축합니다.</span>
@@ -65,7 +65,7 @@ const App: React.FC = () => {
             <a href="https://automt.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">AutoMT</a>
           </div>
           <div className="text-center">
-            <div className="text-white/30 text-xs">© 2026 Money & Time Free</div>
+            <div className="text-white/30 text-xs">© 2026 MnTfree</div>
             <a
               href="https://everprin.com"
               target="_blank"
