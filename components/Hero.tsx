@@ -71,54 +71,72 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <a 
-            href="https://stock.mntfree.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
-          >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Stock</span>
-          </a>
-          <a 
-            href="https://crypto.mntfree.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
-          >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Crypto</span>
-          </a>
-          <a 
-            href="https://futures.mntfree.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
-          >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Futures</span>
-          </a>
-          <a 
-            href="https://property.mntfree.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
-          >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Property</span>
-          </a>
-          <a 
-            href="https://planner.mntfree.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
-          >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Planner</span>
-          </a>
-          <a 
-            href="https://automt.mntfree.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
-          >
-            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">AutoMT</span>
-          </a>
+          <div className="group flex flex-col items-center">
+            <a 
+              href="https://stock.mntfree.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group-hover:scale-105 transition-transform"
+            >
+              <span className="text-sm font-semibold">Stock</span>
+            </a>
+            <span className="text-xs text-white/50 mt-2 min-h-[1.25rem] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">주식 리포트</span>
+          </div>
+          <div className="group flex flex-col items-center">
+            <a 
+              href="https://crypto.mntfree.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group-hover:scale-105 transition-transform"
+            >
+              <span className="text-sm font-semibold">Crypto</span>
+            </a>
+            <span className="text-xs text-white/50 mt-2 min-h-[1.25rem] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">암호화폐 투자</span>
+          </div>
+          <div className="group flex flex-col items-center">
+            <a 
+              href="https://futures.mntfree.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group-hover:scale-105 transition-transform"
+            >
+              <span className="text-sm font-semibold">Futures</span>
+            </a>
+            <span className="text-xs text-white/50 mt-2 min-h-[1.25rem] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">파생·선물</span>
+          </div>
+          <div className="group flex flex-col items-center">
+            <a 
+              href="https://property.mntfree.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group-hover:scale-105 transition-transform"
+            >
+              <span className="text-sm font-semibold">Property</span>
+            </a>
+            <span className="text-xs text-white/50 mt-2 min-h-[1.25rem] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">부동산·자산</span>
+          </div>
+          <div className="group flex flex-col items-center">
+            <a 
+              href="https://planner.mntfree.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group-hover:scale-105 transition-transform"
+            >
+              <span className="text-sm font-semibold">Planner</span>
+            </a>
+            <span className="text-xs text-white/50 mt-2 min-h-[1.25rem] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">투자 목표 관리</span>
+          </div>
+          <div className="group flex flex-col items-center">
+            <a 
+              href="https://automt.mntfree.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group-hover:scale-105 transition-transform"
+            >
+              <span className="text-sm font-semibold">AutoMT</span>
+            </a>
+            <span className="text-xs text-white/50 mt-2 min-h-[1.25rem] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">자동 매매 시스템</span>
+          </div>
         </div>
       </div>
     </section>
