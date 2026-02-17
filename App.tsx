@@ -56,11 +56,13 @@ const App: React.FC = () => {
             <span className="block font-semibold text-white/90">반복을 자동화하고, 시간의 자유를 만드십시오.</span>
             <span className="block text-white/75 mt-1">MnTfree는 당신의 시스템을 구축합니다.</span>
           </p>
-          <div className="flex justify-center gap-6 mb-12">
+          <div className="flex justify-center gap-6 mb-12 flex-wrap">
             <a href="https://stock.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Stock</a>
             <a href="https://crypto.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Crypto</a>
             <a href="https://futures.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Futures</a>
             <a href="https://property.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Property</a>
+            <a href="https://planner.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">Planner</a>
+            <a href="https://automt.mntfree.com" className="text-white/60 hover:text-emerald-400 transition-colors">AutoMT</a>
           </div>
           <div className="text-center">
             <div className="text-white/30 text-xs">© 2026 Money & Time Free</div>

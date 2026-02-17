@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           반복을 시스템으로 바꾸면,<br className="md:hidden" /> 자유는 시간 위에 쌓입니다.
         </p>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
           <a 
             href="https://stock.mntfree.com" 
             target="_blank" 
@@ -102,6 +102,22 @@ const Hero: React.FC = () => {
             className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
           >
             <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Property</span>
+          </a>
+          <a 
+            href="https://planner.mntfree.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
+          >
+            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">Planner</span>
+          </a>
+          <a 
+            href="https://automt.mntfree.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center py-4 px-6 rounded-2xl bg-white/10 hover:bg-emerald-500/80 hover:text-black border border-white/10 hover:border-emerald-500/30 transition-all duration-200 group"
+          >
+            <span className="text-sm font-semibold group-hover:scale-105 transition-transform">AutoMT</span>
           </a>
         </div>
       </div>
